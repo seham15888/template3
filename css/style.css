@@ -1,0 +1,111 @@
+body{
+    background-color:#777;
+}
+code{
+    font-size: 155% !important;
+}
+ .carousel-item{
+
+height: 550px !important;
+} 
+.carousel-inner .carousel-caption {
+    background: rgba(200, 200, 200, 0.3);
+    border-radius: 7px
+}
+.carousel-inner h1{
+    text-shadow: 1px 1px #333;
+}
+a{
+    text-decoration: none;
+    color: #CCCCFF !important;
+}
+a:hover{
+    color: white !important;
+}
+ul{
+    list-style: none;
+    }
+
+.fixedimg{
+    height: 250px;
+    
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fixedimg1{
+background-image:url(../images/fixed.jpg);
+}
+.fixedimg2{
+    
+    background-image: url(../images/images.jpg);
+    
+}
+.myicon{
+        height: 30px;
+        width: 30px;
+        border: 1px solid black;
+        border-radius: 17px;
+}
+.bbb{
+    max-height: 75px !important;
+}
+ .containera  {
+    text-decoration: underline !important;
+    color: #CCCCFF !important;
+}
+ .container-fluid a:hover{
+    color: aliceblue !important;
+}
+.navbar-brand:hover{
+    text-shadow:
+     10px 10px 20px #fff,
+     -10px -10px 20px #fff;
+}
+#carouselExampleIndicators{
+    height: 550px !important;
+}
+.btnbefo{
+    position: relative;
+    left: 30px;
+}
+.btnbefo::before{
+position: absolute;
+content: "";
+border-width: 10px;
+border-style:solid;
+border-color: transparent transparent lightblue transparent;
+top: 20px;
+left: 13px;
+display: none;
+}
+.btnbefo::after{
+position: absolute;
+content: " ";
+height: 40px;
+width: 80px;
+background-color: lightblue;
+top: 40px;
+left: -15px;
+border-radius: 5px;
+display: none;
+}
+.btnbefo:active::before,
+.btn:hover::before{
+    display: block;
+
+}
+.btnbefo:hover::after{
+    content: "copy to clipboard";
+    display: block;
+}
+.btnbefo:active::after{
+    content: "copied";
+    display: block;
+    height: 25px;
+}
+.navbar-brand{
+    transition: 0.4s;
+}
+footer a, .underline  a{
+    text-decoration: underline !important;
+}
