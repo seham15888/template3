@@ -4,10 +4,10 @@ body{
 code{
     font-size: 155% !important;
 }
- .carousel-item{
+/* .carousel-item{
 
 height: 550px !important;
-} 
+} */
 .carousel-inner .carousel-caption {
     background: rgba(200, 200, 200, 0.3);
     border-radius: 7px
